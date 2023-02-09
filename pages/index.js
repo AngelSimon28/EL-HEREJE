@@ -23,29 +23,25 @@ export default function Home() {
                             <li className="px-4">
                                 <a
                                     href="#"
-                                    class="group transition duration-300"
+                                    className="group transition duration-300"
                                 >
-                                    Homw
-                                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
+                                    Directorio de artículos
+                                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
                                 </a>
                             </li>
                             <li className="px-4">
                                 <a
                                     href="#"
-                                    class="group transition duration-300"
+                                    className="group transition duration-300"
                                 >
-                                    Homw
-                                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
+                                    Pasatiempos
+                                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
                                 </a>
                             </li>
                             <li className="px-4">
-                                <a
-                                    href="#"
-                                    class="group transition duration-300"
-                                >
-                                    Homw
-                                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
-                                </a>
+                                <button className="bg-white text-black px-4 py-2 rounded-full">
+                                    Suscribete
+                                </button>
                             </li>
                         </ul>
                     </nav>
