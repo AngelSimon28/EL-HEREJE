@@ -3,6 +3,7 @@ import Image from "next/image";
 import deved from "../public/ElHereje.png";
 import NavBar from "./components/Carousel";
 import { Carousel } from "./components/Carousel";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -23,22 +24,22 @@ export default function Home() {
                         </h1>
                         <ul className="flex items-center px-4 text-3xl">
                             <li className="px-4">
-                                <a
+                                <Link
                                     href="/articledir"
                                     className="group transition duration-300"
                                 >
                                     Directorio de artículos
                                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
-                                </a>
+                                </Link>
                             </li>
                             <li className="px-4">
-                                <a
+                                <Link
                                     href="/games"
                                     className="group transition duration-300"
                                 >
                                     Pasatiempos
                                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
-                                </a>
+                                </Link>
                             </li>
                             <li className="px-4">
                                 <button className="bg-white text-black px-4 py-2 rounded-full">
@@ -64,31 +65,31 @@ export default function Home() {
             <footer class="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-zinc-900">
                 <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
                     © 2023{" "}
-                    <a href="https://flowbite.com/" class="hover:underline">
+                    <Link href="https://flowbite.com/" class="hover:underline">
                         El Hereje™
-                    </a>
+                    </Link>
                     . All Rights Reserved.
                 </span>
                 <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6 ">
+                        <Link href="#" class="mr-4 hover:underline md:mr-6 ">
                             Quiénes somos
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6">
+                        <Link href="#" class="mr-4 hover:underline md:mr-6">
                             Política de privacidad
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6">
+                        <Link href="#" class="mr-4 hover:underline md:mr-6">
                             Aviso legal
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline">
+                        <Link href="#" class="hover:underline">
                             Contacto
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </footer>

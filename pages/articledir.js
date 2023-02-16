@@ -6,6 +6,7 @@ import NavBar from "./components/Carousel";
 import lasviudas from "../public/Lasviudas.jpg";
 import lola from "../public/lola.jpg";
 import fosas from "../public/fosas.jpg";
+import Link from "next/link";
 import cinco from "../public/cinco.jpg";
 
 
@@ -26,26 +27,26 @@ export default function Home() {
                 <section className="max-h-s bg-zinc-900">
                     <nav className="py-10 mb-12 flex justify-between text-white px-6">
                         <h1 className="text-6xl font-jetbrains font-serif dark:text-white">
-                            <a href="/"> El Hereje</a>
+                            <Link href="/"> El Hereje</Link>
                         </h1>
                         <ul className="flex items-center font-serif px-4 text-3xl">
                             <li className="px-4">
-                                <a
+                                <Link
                                     href="#"
                                     className="group transition font-serif duration-300"
                                 >
                                     Directorio de artículos
                                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"> </span>
-                                </a>
+                                </Link>
                             </li>
                             <li className="px-4">
-                                <a
+                                <Link
                                     href="/games"
                                     className="group transition duration-300"
                                 >
                                     Pasatiempos
                                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
-                                </a>
+                                </Link>
                             </li>
                             <li className="px-4">
                                 <button className="bg-white text-black px-4 py-2 rounded-full">
@@ -64,7 +65,7 @@ export default function Home() {
                     <div className="flex justify-center">
                         <div className="columns-2">
                             <div className="w-full">
-                                <a
+                                <Link
                                     href="/article1"
                                     class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-zinc-900 dark:hover:bg-gray-700"
                                 >
@@ -82,11 +83,11 @@ export default function Home() {
                                         
                                         </p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
 
                             <div className="w-full">
-                                <a
+                                <Link
                                     href="#"
                                     class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-zinc-900 dark:hover:bg-gray-700"
                                 >
@@ -103,7 +104,7 @@ export default function Home() {
                                         El pasado lunes se han encontrado lo que parecen ser fosas comunes en la localidad vallisoletana Villabañez
                                         </p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="w-full">
                                 <a
@@ -120,10 +121,30 @@ export default function Home() {
                                         CRÍTICA DE “CINCO HORAS CON MARIO”
                                         </h5>
                                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        Nuestro famoso crítico Abel Villorejo ha hecho una crítica sobre la obra de teatro "Cinco horas con"
+                                        Nuestro famoso crítico Abel Villorejo ha hecho una crítica sobre la obra de teatro &quot Cinco horas con &quot
                                         </p>
                                     </div>
                                 </a>
+                            </div>
+                            <div className="w-full">
+                                <Link
+                                    href="#"
+                                    class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-zinc-900 dark:hover:bg-gray-700"
+                                >
+                                    <Image
+                                        class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                                        src={ElHereje}
+                                        alt=""
+                                    />
+                                    <div class="flex flex-col justify-between p-4 leading-normal">
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                        GONZALO BUTANERO GITANO
+                                        </h5>
+                                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                        GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO
+                                        </p>
+                                    </div>
+                                </Link>
                             </div>
                             <div className="w-full">
                                 <a
@@ -146,27 +167,7 @@ export default function Home() {
                                 </a>
                             </div>
                             <div className="w-full">
-                                <a
-                                    href="#"
-                                    class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-zinc-900 dark:hover:bg-gray-700"
-                                >
-                                    <Image
-                                        class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                                        src={ElHereje}
-                                        alt=""
-                                    />
-                                    <div class="flex flex-col justify-between p-4 leading-normal">
-                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        GONZALO BUTANERO GITANO
-                                        </h5>
-                                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="w-full">
-                                <a
+                                <Link
                                     href="#"
                                     class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-zinc-900 dark:hover:bg-gray-700"
                                 >
@@ -183,7 +184,7 @@ export default function Home() {
                                         GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO
                                         </p>
                                     </div>
-                                </a>
+                                </Link>
                                 
 
 
@@ -197,16 +198,16 @@ export default function Home() {
     </span>
     <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">Quiénes somos</a>
+            <Link href="#" class="mr-4 hover:underline md:mr-6 ">Quiénes somos</Link>
         </li>
         <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Política de privacidad</a>
+            <Link href="#" class="mr-4 hover:underline md:mr-6">Política de privacidad</Link>
         </li>
         <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Aviso legal</a>
+            <Link href="#" class="mr-4 hover:underline md:mr-6">Aviso legal</Link>
         </li>
         <li>
-            <a href="#" class="hover:underline">Contacto</a>
+            <Link href="#" class="hover:underline">Contacto</Link>
         </li>
     </ul>
 </footer>

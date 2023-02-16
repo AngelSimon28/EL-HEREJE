@@ -5,6 +5,7 @@ import cuchillo from "../public/cuchillo.jpg";
 import lasviudas from "../public/Lasviudas.jpg";
 import NavBar from "./components/Carousel";
 import mani from "../public/mani.jpg";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -21,26 +22,26 @@ export default function Home() {
                 <section className="max-h-s bg-zinc-900">
                     <nav className="py-10 mb-12 flex justify-between text-white px-6">
                         <h1 className="text-6xl font-serif dark:text-white">
-                            <a href="/"> El Hereje</a>
+                            <Link href="/"> El Hereje</Link>
                         </h1>
                         <ul className="flex items-center px-4 text-3xl">
                             <li className="px-4">
-                                <a
+                                <Link
                                     href="/articledir"
                                     className="group transition duration-300 font-serif"
                                 >
                                     Directorio de artículos
                                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
-                                </a>
+                                </Link>
                             </li>
                             <li className="px-4">
-                                <a
+                                <Link
                                     href="/games"
                                     className="group transition duration-300 font-serif"
                                 >
                                     Pasatiempos
                                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
-                                </a>
+                                </Link>
                             </li>
                             <li className="px-4">
                                 <button className="bg-white text-black px-4 py-2 rounded-full font-serif">
@@ -86,7 +87,7 @@ export default function Home() {
                     src={mani}
                      alt="" />
                 </div>
-                    <p className="px-5  font-serif py-10">
+                    <p className="px-5  Link py-10">
                         Debido al peligro que corría su vida Carmen alcanzo
                         rápidamente una escopeta que estaba a nombre de su
                         marido, pegándole así tres tiros en el pecho. Después de
@@ -119,16 +120,16 @@ export default function Home() {
     </span>
     <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">Quiénes somos</a>
+            <Link href="#" class="mr-4 hover:underline md:mr-6 ">Quiénes somos</Link>
         </li>
         <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Política de privacidad</a>
+            <Link href="#" class="mr-4 hover:underline md:mr-6">Política de privacidad</Link>
         </li>
         <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Aviso legal</a>
+            <Link href="#" class="mr-4 hover:underline md:mr-6">Aviso legal</Link>
         </li>
         <li>
-            <a href="#" class="hover:underline">Contacto</a>
+            <Link href="#" class="hover:underline">Contacto</Link>
         </li>
     </ul>
 </footer>

@@ -3,6 +3,7 @@ import Image from "next/image";
 import ElHereje from "../public/ElHereje.png";
 import cuchillo from "../public/cuchillo.jpg";
 import NavBar from "./components/Carousel";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -19,26 +20,26 @@ export default function Home() {
                 <section className=" bg-zinc-900">
                     <nav className="py-10 mb-12 flex justify-between text-white px-6">
                         <h1 className="text-6xl font-jetbrains dark:text-white">
-                            <a href="/"> El Hereje</a>
+                            <Link href="/"> El Hereje</Link>
                         </h1>
                         <ul className="flex items-center px-4 text-3xl">
                             <li className="px-4">
-                                <a
+                                <Link
                                     href="/articledir"
                                     className="group transition duration-300"
                                 >
                                     Directorio de artículos
                                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
-                                </a>
+                                </Link>
                             </li>
                             <li className="px-4">
-                                <a
+                                <Link
                                     href="games.js"
                                     className="group transition duration-300"
                                 >
                                     Pasatiempos
                                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
-                                </a>
+                                </Link>
                             </li>
                             <li className="px-4">
                                 <button className="bg-white text-black px-4 py-2 rounded-full">
@@ -55,7 +56,7 @@ export default function Home() {
                     <div className="flex justify-center">
                         <div className="columns-2">
                             <div className="w-full">
-                                <a
+                                <Link
                                     href="#"
                                     class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                                 >
@@ -74,11 +75,11 @@ export default function Home() {
                                             GITANO GONZALO BUTANERO GITANO
                                         </p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
 
                             <div className="w-full">
-                                <a
+                                <Link
                                     href="#"
                                     class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                                 >
@@ -97,40 +98,40 @@ export default function Home() {
                                             GITANO GONZALO BUTANERO GITANO
                                         </p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
                 </section>
             </main>
-            <footer class="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+            <footer class="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-zinc-900">
                 <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
                     © 2023{" "}
-                    <a href="https://flowbite.com/" class="hover:underline">
+                    <Link href="https://flowbite.com/" class="hover:underline">
                         El Hereje™
-                    </a>
+                    </Link>
                     . All Rights Reserved.
                 </span>
                 <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6 ">
+                        <Link href="#" class="mr-4 hover:underline md:mr-6 ">
                             Quiénes somos
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6">
+                        <Link href="#" class="mr-4 hover:underline md:mr-6">
                             Política de privacidad
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6">
+                        <Link href="#" class="mr-4 hover:underline md:mr-6">
                             Aviso legal
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline">
+                        <Link href="#" class="hover:underline">
                             Contacto
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </footer>
