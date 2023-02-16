@@ -3,7 +3,7 @@ import Image from "next/image";
 import ElHereje from "../public/ElHereje.png";
 import cuchillo from "../public/cuchillo.jpg";
 import lasviudas from "../public/Lasviudas.jpg";
-import NavBar from "./components/Carousel";
+import NavBar from "../components/Carousel";
 import mani from "../public/mani.jpg";
 import Link from "next/link";
 

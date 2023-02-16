@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Image from "next/image";
-import ElHereje from "../../public/ElHereje.png";
-import cuchillo from "../../public/cuchillo.jpg";
-import lola from "../../public/lola.jpg";
+import ElHereje from "../public/ElHereje.png";
+import cuchillo from "../public/cuchillo.jpg";
+import lola from "../public/lola.jpg";
 
 export const Carousel = () => {
     const [currentSlide, setCurrentSlide] = useState(0);

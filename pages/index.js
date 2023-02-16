@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import deved from "../public/ElHereje.png";
-import NavBar from "./components/Carousel";
-import { Carousel } from "./components/Carousel";
+import NavBar from "../components/Carousel";
+import { Carousel } from "../components/Carousel";
 import Link from "next/link";
 
 export default function Home() {

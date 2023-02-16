@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ElHereje from "../public/ElHereje.png";
 import cuchillo from "../public/cuchillo.jpg"
-import NavBar from "./components/Carousel";
+import NavBar from "../components/Carousel";
 import lasviudas from "../public/Lasviudas.jpg";
 import lola from "../public/lola.jpg";
 import fosas from "../public/fosas.jpg";
