@@ -65,7 +65,7 @@ export default function Home4() {
                 <h3 className="p-5 font-serif mx-20">19 de febrero de 2023 </h3>
                 <div className="text-justify mx-40 py-10">
                     <p className="px-5 font-serif">
-                    La actriz vallisoletana Lola Herrera ha sufrido este jueves por la noche un desmayo durante la interpretación de la obra “Cinco horas con Mario”. El suceso ha tenido lugar en el Auditorio Ciudad de León. Afortunadamente, la actriz (de 84 años de edad) ha conseguido recuperarse sin necesidad de intervención médica ni un ingreso hospitalario.
+                    La actriz vallisoletana Lola Herrera ha sufrido este jueves por la noche un desmayo durante la interpretación de la obra Cinco horas con Mario. El suceso ha tenido lugar en el Auditorio Ciudad de León. Afortunadamente, la actriz (de 84 años de edad) ha conseguido recuperarse sin necesidad de intervención médica ni un ingreso hospitalario.
                     </p>
                     <p className="px-5 font-serif py-10">
                     La actriz sufrió un desmayo sobre el escenario tras haber sido representadas apenas 20 minutos de la actuación. Inmediatamente, la actuación fue suspendida, provocando la alarma entre el público presente.

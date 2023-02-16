@@ -3,6 +3,7 @@ import Image from "next/image";
 import ElHereje from "../public/ElHereje.png";
 import cuchillo from "../public/cuchillo.jpg";
 import lola from "../public/lola.jpg";
+import lasviudas from "../public/Lasviudas.jpg";
 
 export const Carousel = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -12,8 +13,8 @@ export const Carousel = () => {
             id: 1,
             title: "MUJER MATA A SU MARIDO EN SAN VALENTÍN Y PASA LA NOCHE ENCERRADA CON EL ",
             description:
-                "El pasado martes en Valladolid, las autoridades recibieron una llamada de los vecinos, los cuales denunciaban el asesinato de Mario por parte de su mujer Carmen. Este caso ha desatado revueltas en la ciudad debido a su alta",
-            image: cuchillo,
+                "El pasado martes en Valladolid, las autoridades recibieron una llamada de los vecinos, los cuales denunciaban el asesinato de Mario por parte de su mujer Carmen.",
+            image: lasviudas,
             href: "/article1"
         },
         {
@@ -22,7 +23,7 @@ export const Carousel = () => {
             description:
                 "Nuestro crítico de teatro Abel Villorejo ha visto esta semana la obra de teatro de Cinco horas con Mario, ¿Quieres saber que opina?",
             image: lola,
-            href: "#"
+            href: "/article3"
         },
     ];
 

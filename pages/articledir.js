@@ -108,7 +108,7 @@ export default function Home() {
                                 </Link>
                             </div>
                             <div className="w-full">
-                                <a
+                                <Link
                                     href="/article3"
                                     class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-zinc-900 dark:hover:bg-gray-700"
                                 >
@@ -119,13 +119,13 @@ export default function Home() {
                                     />
                                     <div class="flex flex-col justify-between p-4 leading-normal">
                                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        CRÍTICA DE “CINCO HORAS CON MARIO”
+                                        CRÍTICA DE CINCO HORAS CON MARIO
                                         </h5>
                                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        Nuestro famoso crítico Abel Villorejo ha hecho una crítica sobre la obra de teatro &quot Cinco horas con &quot
+                                        Nuestro famoso crítico Abel Villorejo ha hecho una crítica sobre la obra de teatro Cinco horas con Mario
                                         </p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="w-full">
                                 <Link

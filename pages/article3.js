@@ -56,7 +56,7 @@ export default function Home3() {
             </main>
             <div>
                 <h1 className="flex justify-center text-3xl p-4 font-serif">
-                CRÍTICA DE “CINCO HORAS CON MARIO”
+                CRÍTICA DE CINCO HORAS CON MARIO
                 </h1>
                 <div class="flex justify-center items-center">
                     <Image

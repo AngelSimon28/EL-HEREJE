@@ -71,7 +71,7 @@ export default function Home2() {
                     El pasado lunes se encontraron lo que parecen ser los restos de una fosa común en la localidad de Villabañez. Los restos fueron analizados por los forenses y las pruebas de carbono indicaron que en efecto datan de la guerra civil española, ya que tienen aproximadamente 84 años de antigüedad. 
                     </p>
                     <p className="px-5 font-serif py-10">
-                    Según los investigadores implicados se intentarán realizar pruebas de ADN para identificar la identidad de estos esqueletos. "Aún no estamos seguros de cuánta gente hay en esta fosa ni si hay alguna otra por la zona, pero tenemos claro que tendrán un final más digno que este" Nos declara Roberto, que dirige este proyecto. 
+                    Según los investigadores implicados se intentarán realizar pruebas de ADN para identificar la identidad de estos esqueletos. &quot Aún no estamos seguros de cuánta gente hay en esta fosa ni si hay alguna otra por la zona, pero tenemos claro que tendrán un final más digno que este &quot. Nos declara Roberto, que dirige este proyecto. 
                     </p>
                     <div class="flex justify-center items-center">
                     <Image 
