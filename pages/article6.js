@@ -5,9 +5,10 @@ import cuchillo from "../public/cuchillo.jpg";
 import lasviudas from "../public/Lasviudas.jpg";
 import NavBar from "../components/Carousel";
 import mani from "../public/mani.jpg";
+import carcel from "../public/carcel.jpeg";
 import Link from "next/link";
 
-export default function Home() {
+export default function Home6() {
     return (
         <div>
             <Head>
@@ -54,60 +55,29 @@ export default function Home() {
             </main>
             <div>
                 <h1 className="flex justify-center text-3xl p-4 font-serif">
-                    MUJER MATA A SU MARIDO EN SAN VALENTÍN Y PASA LA NOCHE
-                    ENCERRADA CON EL
+                    DEFENSA PERSONAL
                 </h1>
                 <div class="flex justify-center items-center">
-                    <Image src={lasviudas} alt="" />
+                    <Image class="w-3/6" src={cuchillo} alt="" />
                 </div>
                 <h2 className="px-5 font-serif mx-20">Ángel Simón Santos </h2>
                 <h3 className="p-5 font-serif mx-20">17 de febrero de 2023 </h3>
                 <div className="text-justify mx-40 py-10">
                     <p className="px-5 font-serif">
-                        El pasado San Valentín la policía logro detener en Las
-                        Viudas a la mujer que mató a su marido sobre las 20:00 y
-                        se quedó encerrada con él durante 5 horas, ahora la
-                        mujer ya está a disposición de la justicia y hemos
-                        podido saber por parte de su abogado José Alfredo
-                        Rodríguez porque cometió tal asesinato.
+                    Hace pocos días nos hacíamos eco todos los periodistas del asesinato de Mario, asesinado por su mujer en la ciudad de Valladolid, este asesinato ha generado cierta controversia entre varios grupos de la ciudad debido a que la mujer se defendió de las agresiones de su marido y por lo tanto alegan que no es un asesinato que fue por defensa personal y que debe ser puesta en libertad de inmediato
                     </p>
                     <p className="px-5 font-serif py-10">
-                        Según el testimonio dado por la acusada hacia las 19:20
-                        del 14 de febrero el hombre entro en casa en estado de
-                        embriaguez. Carmen (la acusada) empezó una discusión
-                        debido al estado en el que se encontraba su marido a tan
-                        pronta hora el día de San Valentín, la acalorada
-                        conversación desemboco rápidamente en la violencia
-                        física por parte del marido, la cual según Carmen ya se
-                        había propiciado en más de una ocasión.{" "}
+                    Hay ciertos países como Estados Unidos en los que asesinar a alguien, en caso de defensa personal, no está penado y por lo tanto no se considera un homicidio, pero en España esto no es así. Desde mi punto de vista este tipo de casos es muy peliagudo, ya que depende mucho del contexto de la situación que lleve a la persona a tomar ciertas decisiones de vida o muerte. En el caso que nos atañe yo creo que, si debe de ser puesta en libertad la mujer, porque llevaba aguantando estos abusos todo su matrimonio y por intentar dar la cara puede que Carmen se pase los próximos diez años en prisión sin poder ver a sus hijos. 
                     </p>
                     <div class="flex justify-center items-center">
                     <Image 
-                    class="w-3/6"
-                    src={mani}
+                    class="w-2/6"
+                    src={carcel}
                      alt="" />
                 </div>
-                    <p className="px-5 font-serif  Link py-10">
-                        Debido al peligro que corría su vida Carmen alcanzo
-                        rápidamente una escopeta que estaba a nombre de su
-                        marido, pegándole así tres tiros en el pecho. Después de
-                        dispararle le sentó en el sofá para hablar
-                        tranquilamente con su marido mientras se encontraba en
-                        estado de agonía, él moriría treinta minutos más tarde
-                        de ocurrirse el suceso. Que su marido estuviese muerto
-                        no le importuno, ya que siguió hablando con él durante 5
-                        horas.{" "}
-                        
-                    </p>
-                    <p className="px-5 font-serif">
-                        Según el abogado de la acusada esto se produjo debido al
-                        maltrato que había sufrido la victima durante el tiempo
-                        de su matrimonio, por lo que no se debería de tener en
-                        cuenta. Estas declaraciones han provocado un
-                        levantamiento de varios grupos en Valladolid, los cuales
-                        piden la puesta en libertad de la acusada. Las
-                        manifestaciones han acabado con cinco heridos, dos de
-                        ellos graves ingresados en el hospital Río Ortega.{" "}
+                
+                    <p className="px-5 font-serif py-10">
+                    Necesitamos un paso adelante de los políticos españoles para que redacten unas leyes claras que hagan que este tipo de situaciones en lo que se llega al asesinato por mera defensa personal no sean penados, o si consideras que sigue siendo asesinato sean penas menores, ya que estabas protegiendo tu vida frente a la de tu agresor. 
                     </p>
                    
                     

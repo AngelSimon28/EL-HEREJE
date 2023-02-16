@@ -19,14 +19,14 @@ export default function Home() {
             <main className="bg-white dark:bg-zinc-900 px-10">
                 <section className="min-h-screen">
                     <nav className="py-10 mb-12 flex justify-between text-white">
-                        <h1 className="text-6xl font-jetbrains dark:text-white">
+                        <h1 className="text-6xl font-serif dark:text-white">
                             El Hereje
                         </h1>
                         <ul className="flex items-center px-4 text-3xl">
                             <li className="px-4">
                                 <Link
                                     href="/articledir"
-                                    className="group transition duration-300"
+                                    className="group font-serif transition duration-300"
                                 >
                                     Directorio de artículos
                                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
@@ -35,14 +35,14 @@ export default function Home() {
                             <li className="px-4">
                                 <Link
                                     href="/games"
-                                    className="group transition duration-300"
+                                    className="group transition font-serif duration-300"
                                 >
                                     Pasatiempos
                                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
                                 </Link>
                             </li>
                             <li className="px-4">
-                                <button className="bg-white text-black px-4 py-2 rounded-full">
+                                <button className="bg-white text-black font-serif px-4 py-2 rounded-full">
                                     Suscribete
                                 </button>
                             </li>

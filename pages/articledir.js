@@ -8,6 +8,7 @@ import lola from "../public/lola.jpg";
 import fosas from "../public/fosas.jpg";
 import Link from "next/link";
 import cinco from "../public/cinco.jpg";
+import hospital from "../public/hospital.jpg";
 
 
 
@@ -26,7 +27,7 @@ export default function Home() {
             <main className="bg-white">
                 <section className="max-h-s bg-zinc-900">
                     <nav className="py-10 mb-12 flex justify-between text-white px-6">
-                        <h1 className="text-6xl font-jetbrains font-serif dark:text-white">
+                        <h1 className="text-6xl  font-serif dark:text-white">
                             <Link href="/"> El Hereje</Link>
                         </h1>
                         <ul className="flex items-center font-serif px-4 text-3xl">
@@ -57,7 +58,7 @@ export default function Home() {
                     </nav>
                 </section>
                 <section className="max-h-s">
-                    <div className="flex justify-center">
+                    <div className="flex justify-center font-serif">
                         <h1 className="text-3xl p-4">
                             DIRECTORIO DE ARTÍCULOS
                         </h1>
@@ -88,7 +89,7 @@ export default function Home() {
 
                             <div className="w-full">
                                 <Link
-                                    href="#"
+                                    href="/article2"
                                     class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-zinc-900 dark:hover:bg-gray-700"
                                 >
                                     <Image
@@ -108,7 +109,7 @@ export default function Home() {
                             </div>
                             <div className="w-full">
                                 <a
-                                    href="#"
+                                    href="/article3"
                                     class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-zinc-900 dark:hover:bg-gray-700"
                                 >
                                     <Image
@@ -128,60 +129,60 @@ export default function Home() {
                             </div>
                             <div className="w-full">
                                 <Link
-                                    href="#"
+                                    href="/article4"
                                     class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-zinc-900 dark:hover:bg-gray-700"
                                 >
                                     <Image
                                         class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                                        src={ElHereje}
+                                        src={lola}
                                         alt=""
                                     />
                                     <div class="flex flex-col justify-between p-4 leading-normal">
                                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        GONZALO BUTANERO GITANO
+                                        LOLA HERRERA SE  DESMAYA ACTUANDO
                                         </h5>
                                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO
+                                        La actriz vallisoletana ha sufrido el jueves por la noche un desmayo durante la presentación de Cinco horas con Mario.
                                         </p>
                                     </div>
                                 </Link>
                             </div>
                             <div className="w-full">
-                                <a
-                                    href="#"
+                                <Link
+                                    href="/article5"
                                     class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-zinc-900 dark:hover:bg-gray-700"
                                 >
                                     <Image
                                         class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                                        src={ElHereje}
+                                        src={hospital}
                                         alt=""
                                     />
                                     <div class="flex flex-col justify-between p-4 leading-normal">
                                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        GONZALO BUTANERO GITANO
+                                        LOS PADRES DEL NIÑO SE DSICULPAN POR LO SUCEDIDO
                                         </h5>
                                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO
+                                        Los padres del niño que fingió una urgencia médica, se han disculpado esta mañana, por la movilizacion de las autoridades.
                                         </p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="w-full">
                                 <Link
-                                    href="#"
+                                    href="/article6"
                                     class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-zinc-900 dark:hover:bg-gray-700"
                                 >
                                     <Image
-                                        class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                                        class="object-cover w-full rounded-t-lg h-3/6 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                                         src={cuchillo}
                                         alt=""
                                     />
                                     <div class="flex flex-col justify-between p-4 leading-normal">
                                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            GONZALO BUTANERO GITANO
+                                        DEFENSA PERSONAL 
                                         </h5>
                                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO GONZALO BUTANERO GITANO
+                                        Nuestro columnista Ángel Simón, nos va a aportar en este breve artículo su opinión sobre el arresto de Carmen, la cual mató a su marido Mario y ha sido muy controversial estos días.
                                         </p>
                                     </div>
                                 </Link>

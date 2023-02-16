@@ -18,9 +18,9 @@ export const Carousel = () => {
         },
         {
             id: 2,
-            title: "CINCO HORAS CON MARIO ES UN DESASTRE DE ALMODOVAR",
+            title: "CRÍTICA DE CINCO HORAS CON MARIO",
             description:
-                "Cino horas con Mario es el mayor desastre de Almodovar, eso decía nuestro crítico Abel Villarejo",
+                "Nuestro crítico de teatro Abel Villorejo ha visto esta semana la obra de teatro de Cinco horas con Mario, ¿Quieres saber que opina?",
             image: lola,
             href: "#"
         },
@@ -45,7 +45,7 @@ export const Carousel = () => {
                 class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                 onClick={() => prevSlide()}
             >
-                <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-white-800/30 group-hover:bg-white/50 dark:group-hover:bg-white group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
                     <svg
                         aria-hidden="true"
                         class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
@@ -69,7 +69,7 @@ export const Carousel = () => {
                 class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                 onClick={() => nextSlide()}
             >
-                <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-red-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-white-800/30 group-hover:bg-white/50 dark:group-hover:bg-white group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
                     <svg
                         aria-hidden="true"
                         class="w-6 h-6 text-white dark:text-gray-800"

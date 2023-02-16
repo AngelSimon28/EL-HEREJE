@@ -5,9 +5,11 @@ import cuchillo from "../public/cuchillo.jpg";
 import lasviudas from "../public/Lasviudas.jpg";
 import NavBar from "../components/Carousel";
 import mani from "../public/mani.jpg";
+import lola from "../public/lola.jpg";
+import auditorio from "../public/auditorio.jpg";
 import Link from "next/link";
 
-export default function Home() {
+export default function Home4() {
     return (
         <div>
             <Head>
@@ -54,60 +56,32 @@ export default function Home() {
             </main>
             <div>
                 <h1 className="flex justify-center text-3xl p-4 font-serif">
-                    MUJER MATA A SU MARIDO EN SAN VALENTÍN Y PASA LA NOCHE
-                    ENCERRADA CON EL
+                LOLA HERRERA SE  DESMAYA ACTUANDO
                 </h1>
                 <div class="flex justify-center items-center">
-                    <Image src={lasviudas} alt="" />
+                    <Image class="w-3/6" src={lola} alt="" />
                 </div>
-                <h2 className="px-5 font-serif mx-20">Ángel Simón Santos </h2>
-                <h3 className="p-5 font-serif mx-20">17 de febrero de 2023 </h3>
+                <h2 className="px-5 font-serif mx-20">Abel Villorejo Lermo</h2>
+                <h3 className="p-5 font-serif mx-20">19 de febrero de 2023 </h3>
                 <div className="text-justify mx-40 py-10">
                     <p className="px-5 font-serif">
-                        El pasado San Valentín la policía logro detener en Las
-                        Viudas a la mujer que mató a su marido sobre las 20:00 y
-                        se quedó encerrada con él durante 5 horas, ahora la
-                        mujer ya está a disposición de la justicia y hemos
-                        podido saber por parte de su abogado José Alfredo
-                        Rodríguez porque cometió tal asesinato.
+                    La actriz vallisoletana Lola Herrera ha sufrido este jueves por la noche un desmayo durante la interpretación de la obra “Cinco horas con Mario”. El suceso ha tenido lugar en el Auditorio Ciudad de León. Afortunadamente, la actriz (de 84 años de edad) ha conseguido recuperarse sin necesidad de intervención médica ni un ingreso hospitalario.
                     </p>
                     <p className="px-5 font-serif py-10">
-                        Según el testimonio dado por la acusada hacia las 19:20
-                        del 14 de febrero el hombre entro en casa en estado de
-                        embriaguez. Carmen (la acusada) empezó una discusión
-                        debido al estado en el que se encontraba su marido a tan
-                        pronta hora el día de San Valentín, la acalorada
-                        conversación desemboco rápidamente en la violencia
-                        física por parte del marido, la cual según Carmen ya se
-                        había propiciado en más de una ocasión.{" "}
+                    La actriz sufrió un desmayo sobre el escenario tras haber sido representadas apenas 20 minutos de la actuación. Inmediatamente, la actuación fue suspendida, provocando la alarma entre el público presente.
                     </p>
                     <div class="flex justify-center items-center">
                     <Image 
                     class="w-3/6"
-                    src={mani}
+                    src={auditorio}
                      alt="" />
                 </div>
-                    <p className="px-5 font-serif  Link py-10">
-                        Debido al peligro que corría su vida Carmen alcanzo
-                        rápidamente una escopeta que estaba a nombre de su
-                        marido, pegándole así tres tiros en el pecho. Después de
-                        dispararle le sentó en el sofá para hablar
-                        tranquilamente con su marido mientras se encontraba en
-                        estado de agonía, él moriría treinta minutos más tarde
-                        de ocurrirse el suceso. Que su marido estuviese muerto
-                        no le importuno, ya que siguió hablando con él durante 5
-                        horas.{" "}
+                    <p className="px-5 font-serif Link py-10">
+                    Un equipo de emergencias se desplazó hasta el Auditorio, el cual examinó a la actriz y la acompañó y ayudó hasta su recuperación total. Este suceso ha sorprendido bastante, ya que la actriz había interpretado con total normalidad la misma obra el pasado jueves.
                         
                     </p>
                     <p className="px-5 font-serif">
-                        Según el abogado de la acusada esto se produjo debido al
-                        maltrato que había sufrido la victima durante el tiempo
-                        de su matrimonio, por lo que no se debería de tener en
-                        cuenta. Estas declaraciones han provocado un
-                        levantamiento de varios grupos en Valladolid, los cuales
-                        piden la puesta en libertad de la acusada. Las
-                        manifestaciones han acabado con cinco heridos, dos de
-                        ellos graves ingresados en el hospital Río Ortega.{" "}
+                    Ahora, el Ayuntamiento de León y la empresa encargada de representar esta obra, Pentación, están decidiendo una nueva fecha para estrenar de nuevo la obra en la ciudad leonesa.
                     </p>
                    
                     

@@ -6,8 +6,10 @@ import lasviudas from "../public/Lasviudas.jpg";
 import NavBar from "../components/Carousel";
 import mani from "../public/mani.jpg";
 import Link from "next/link";
+import hospital from "../public/hospital.jpg";
+import juzgado from "../public/juzgado.jpg";
 
-export default function Home() {
+export default function Home5() {
     return (
         <div>
             <Head>
@@ -54,40 +56,27 @@ export default function Home() {
             </main>
             <div>
                 <h1 className="flex justify-center text-3xl p-4 font-serif">
-                    MUJER MATA A SU MARIDO EN SAN VALENTÍN Y PASA LA NOCHE
-                    ENCERRADA CON EL
+                UN NIÑO MOVILIZA A LAS AUTORIDADES PARA LLAMAR LA ATENCION DE SUS PADRES 
                 </h1>
                 <div class="flex justify-center items-center">
-                    <Image src={lasviudas} alt="" />
+                    <Image src={hospital} alt="" />
                 </div>
                 <h2 className="px-5 font-serif mx-20">Ángel Simón Santos </h2>
-                <h3 className="p-5 font-serif mx-20">17 de febrero de 2023 </h3>
+                <h3 className="p-5 font-serif mx-20">19 de febrero de 2023 </h3>
                 <div className="text-justify mx-40 py-10">
                     <p className="px-5 font-serif">
-                        El pasado San Valentín la policía logro detener en Las
-                        Viudas a la mujer que mató a su marido sobre las 20:00 y
-                        se quedó encerrada con él durante 5 horas, ahora la
-                        mujer ya está a disposición de la justicia y hemos
-                        podido saber por parte de su abogado José Alfredo
-                        Rodríguez porque cometió tal asesinato.
+                    El pasado martes los servicios de emergencias recibían varias llamadas de un niño desde la misma casa, en la primera llamada un niño pedía auxilio diciendo que se encontraba atrapado debajo de una estantería en su casa, pero antes de decir la dirección de su casa la llamada se cortó, por lo que esperaron otra llamada del niño para saber si se encontraba en buen estado.
                     </p>
                     <p className="px-5 font-serif py-10">
-                        Según el testimonio dado por la acusada hacia las 19:20
-                        del 14 de febrero el hombre entro en casa en estado de
-                        embriaguez. Carmen (la acusada) empezó una discusión
-                        debido al estado en el que se encontraba su marido a tan
-                        pronta hora el día de San Valentín, la acalorada
-                        conversación desemboco rápidamente en la violencia
-                        física por parte del marido, la cual según Carmen ya se
-                        había propiciado en más de una ocasión.{" "}
+                    A la hora las autoridades recibieron otra llamada del niño, en esta Quico afirmaba haberse tragado un clavo que se había encontrado en el suelo de su garaje por la mañana. Esta vez sí que obtuvieron la dirección, por lo que rápidamente una ambulancia y un coche de policía acudieron a su casa. El niño estaba solo en casa por lo que se le llevaron al hospital y se contactó con sus padres que llegaron rápidamente. 
                     </p>
                     <div class="flex justify-center items-center">
                     <Image 
                     class="w-3/6"
-                    src={mani}
+                    src={juzgado}
                      alt="" />
                 </div>
-                    <p className="px-5 font-serif  Link py-10">
+                    <p className="px-5 font-serif Link py-10">
                         Debido al peligro que corría su vida Carmen alcanzo
                         rápidamente una escopeta que estaba a nombre de su
                         marido, pegándole así tres tiros en el pecho. Después de
