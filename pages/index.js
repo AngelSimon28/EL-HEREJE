@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import deved from "../public/ElHereje.png";
+import NavBar from "./components/Carousel";
+import { Carousel } from "./components/Carousel";
 
 export default function Home() {
     return (
@@ -22,7 +24,7 @@ export default function Home() {
                         <ul className="flex items-center px-4 text-3xl">
                             <li className="px-4">
                                 <a
-                                    href="#"
+                                    href="/articledir"
                                     className="group transition duration-300"
                                 >
                                     Directorio de artículos
@@ -31,7 +33,7 @@ export default function Home() {
                             </li>
                             <li className="px-4">
                                 <a
-                                    href="#"
+                                    href="/games"
                                     className="group transition duration-300"
                                 >
                                     Pasatiempos
@@ -52,11 +54,44 @@ export default function Home() {
                             />
                         </div>
                         <h2 className="text-5xl py-2 text-white font-medium md:text-6xl mt-12">
-                            Adentrate en el conocimiento prohibido
+                            
                         </h2>
+                        <Carousel />
                     </div>
+
                 </section>
             </main>
+            <footer class="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-zinc-900">
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+                    © 2023{" "}
+                    <a href="https://flowbite.com/" class="hover:underline">
+                        El Hereje™
+                    </a>
+                    . All Rights Reserved.
+                </span>
+                <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6 ">
+                            Quiénes somos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6">
+                            Política de privacidad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6">
+                            Aviso legal
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </footer>
         </div>
     );
 }
