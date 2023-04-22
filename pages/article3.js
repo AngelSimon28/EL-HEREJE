@@ -71,7 +71,7 @@ export default function Home3() {
                     Hace ya unos pocos días, acudí al inmejorable Teatro Calderón vallisoletano, donde se iba a realizar una representación de la famosa y renombrada novela Cinco horas con Mario. Para quien no esté muy familiarizado con este título, resumiré brevemente.
                     </p>
                     <p className="px-5 font-serif py-10">
-                    Cinco horas con Mario es una novela creada por el escritor Miguel Delibes, la cual fue publicada allá por la lejana década de 1966. La trama principal se puede resumir en el soliloquio de la protagonista. Es el caso de la viuda española Carmen Sotillo (representada en la obra por la veterana actriz Lola Herrera). La novela consiste en este personaje conversando con el ataúd de su difunto marido, Mario Díez Collado, cuya muerte se produjo de forma inesperada en los años 60.
+                    Cinco horas con Mario es una novela creada por el escritor Miguel Delibes, la cual fue publicada allá por la lejana década de los 60. La trama principal se puede resumir en el soliloquio de la protagonista. Es el caso de la viuda española Carmen Sotillo (representada en la obra por la veterana actriz Lola Herrera). La novela consiste en este personaje conversando con su difunto marido, Mario Díez Collado, cuya muerte se produjo de forma inesperada en los años 60.
                     </p>
                     <div class="flex justify-center items-center">
                     <Image 
@@ -84,7 +84,7 @@ export default function Home3() {
                         
                     </p>
                     <p className="px-5 font-serif py-10">
-                    Llegados a este punto, ha llegado el momento de la crítica de la obra. En lo que trata a la adaptación del libro al escenario, todos los órganos de la compañía han cumplido un papel inmejorable. Sin duda alguna, la obra de teatro en muy fiel a la novela, sin cambiar su esencia ni su importante mensaje. Respecto a la actuación, Lola Herrera ha vuelto a demostrar que ha nacido para interpretar a Carmen. La primera vez que interpretó este papel fue en 1979, a la edad de 44 años. Ahora, y para sorpresa de la mayoría de los espectadores, la brillante artista ha vuelto a interpretarlo con la edad de 86 años, con la misma gracia y talento de siempre.
+                    Dicho esto, ha llegado el momento de la crítica de la obra. En lo que trata a la adaptación del libro al escenario, todos los miembros de la compañía han cumplido un papel fantástico. Sin duda alguna, la obra de teatro en muy fiel a la novela, sin cambiar su esencia ni su importante mensaje. Respecto a la actuación, Lola Herrera ha vuelto a demostrar que ha nacido para interpretar a Carmen. La primera vez que interpretó este papel fue en 1979, a la edad de 44 años. Ahora, y para sorpresa de la mayoría de los espectadores, la brillante artista ha vuelto a interpretarlo con la edad de 86 años, con la misma gracia y talento de siempre.
                     </p>
                     <p className="px-5 font-serif">
                     Me gustaría concluir este breve artículo diciendo que recomiendo esta obra completamente. Todos los elementos de la obra fueron perfectos, desde la dirección y producción hasta la actuación. Si tienen una oportunidad de acudir a este maravilloso espectáculo, no la desaprovechen, ya que se estarían perdiendo una de las mejores interpretaciones de esta novela histórica. 

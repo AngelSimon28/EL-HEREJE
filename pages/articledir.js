@@ -77,10 +77,10 @@ export default function Home() {
                                     />
                                     <div class="flex flex-col justify-between p-4 leading-normal">
                                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            MUJER MATA A SU MARIDO Y SE QUEDA HABLANDO CON EL
+                                            ASESINATO DOMÉSTICO EN LAS VIUDAS
                                         </h5>
                                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        Este San Valentín una mujer ha matado a su marido y ha estado 5 horas hablando en el cadáver
+                                        Este San Valentín una mujer ha matado a su marido en Las Viudas, un asesinato muy controversial.
                                         
                                         </p>
                                     </div>
@@ -159,7 +159,7 @@ export default function Home() {
                                     />
                                     <div class="flex flex-col justify-between p-4 leading-normal">
                                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        LOS PADRES DEL NIÑO SE DSICULPAN POR LO SUCEDIDO
+                                        LOS PADRES DEL NIÑO SE DISCULPAN POR LO SUCEDIDO
                                         </h5>
                                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                                         Los padres del niño que fingió una urgencia médica, se han disculpado esta mañana, por la movilizacion de las autoridades.

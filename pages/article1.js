@@ -54,8 +54,7 @@ export default function Home() {
             </main>
             <div>
                 <h1 className="flex justify-center text-3xl p-4 font-serif">
-                    MUJER MATA A SU MARIDO EN SAN VALENTÍN Y PASA LA NOCHE
-                    ENCERRADA CON EL
+                    ASESINATO DOMÉSTICO EN LAS VIUDAS
                 </h1>
                 <div class="flex justify-center items-center">
                     <Image src={lasviudas} alt="" />
@@ -68,7 +67,7 @@ export default function Home() {
                         Viudas a la mujer que mató a su marido sobre las 20:00 y
                         se quedó encerrada con él durante 5 horas, ahora la
                         mujer ya está a disposición de la justicia y hemos
-                        podido saber por parte de su abogado José Alfredo
+                        podido saber gracias a su abogado José Alfredo
                         Rodríguez porque cometió tal asesinato.
                     </p>
                     <p className="px-5 font-serif py-10">
@@ -77,9 +76,9 @@ export default function Home() {
                         embriaguez. Carmen (la acusada) empezó una discusión
                         debido al estado en el que se encontraba su marido a tan
                         pronta hora el día de San Valentín, la acalorada
-                        conversación desemboco rápidamente en la violencia
-                        física por parte del marido, la cual según Carmen ya se
-                        había propiciado en más de una ocasión.{" "}
+                        conversación desembocó rápidamente en la violencia
+                        física por parte del marido, la cual según Carmen, ya
+                        había ocurrido en más de una ocasión.{" "}
                     </p>
                     <div class="flex justify-center items-center">
                     <Image 
@@ -87,27 +86,16 @@ export default function Home() {
                     src={mani}
                      alt="" />
                 </div>
-                    <p className="px-5 font-serif  Link py-10">
-                        Debido al peligro que corría su vida Carmen alcanzo
-                        rápidamente una escopeta que estaba a nombre de su
-                        marido, pegándole así tres tiros en el pecho. Después de
-                        dispararle le sentó en el sofá para hablar
-                        tranquilamente con su marido mientras se encontraba en
-                        estado de agonía, él moriría treinta minutos más tarde
-                        de ocurrirse el suceso. Que su marido estuviese muerto
-                        no le importuno, ya que siguió hablando con él durante 5
-                        horas.{" "}
-                        
-                    </p>
+                    
                     <p className="px-5 font-serif">
                         Según el abogado de la acusada esto se produjo debido al
                         maltrato que había sufrido la victima durante el tiempo
-                        de su matrimonio, por lo que no se debería de tener en
+                        de su matrimonio, por lo que no se debería tener en
                         cuenta. Estas declaraciones han provocado un
                         levantamiento de varios grupos en Valladolid, los cuales
                         piden la puesta en libertad de la acusada. Las
                         manifestaciones han acabado con cinco heridos, dos de
-                        ellos graves ingresados en el hospital Río Ortega.{" "}
+                        ellos graves ingresados en el hospital Río Hortega.{" "}
                     </p>
                    
                     

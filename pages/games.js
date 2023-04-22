@@ -81,7 +81,7 @@ export default function Home() {
 
                             <div className="w-full">
                                 <Link
-                                    href="https://drive.google.com/file/d/10qlN0csos8wGnYudI-DYp216airE2BqF/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/1XCO504oguQhOtTeaAQPlIOPhhbagHCbU/view?usp=sharing"
                                     class="flex float-left items-center bg-white border m-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                                 >
                                     <Image

@@ -56,7 +56,7 @@ export default function Home5() {
             </main>
             <div>
                 <h1 className="flex justify-center text-3xl p-4 font-serif">
-                UN NIÑO MOVILIZA A LAS AUTORIDADES PARA LLAMAR LA ATENCION DE SUS PADRES 
+                UN NIÑO MOVILIZA A LAS AUTORIDADES PARA LLAMAR LA ATENCIÓN DE SUS PADRES 
                 </h1>
                 <div class="flex justify-center items-center">
                     <Image src={hospital} alt="" />
@@ -68,7 +68,7 @@ export default function Home5() {
                     El pasado martes los servicios de emergencias recibían varias llamadas de un niño desde la misma casa, en la primera llamada un niño pedía auxilio diciendo que se encontraba atrapado debajo de una estantería en su casa, pero antes de decir la dirección de su casa la llamada se cortó, por lo que esperaron otra llamada del niño para saber si se encontraba en buen estado.
                     </p>
                     <p className="px-5 font-serif py-10">
-                    A la hora las autoridades recibieron otra llamada del niño, en esta Quico afirmaba haberse tragado un clavo que se había encontrado en el suelo de su garaje por la mañana. Esta vez sí que obtuvieron la dirección, por lo que rápidamente una ambulancia y un coche de policía acudieron a su casa. El niño estaba solo en casa por lo que se le llevaron al hospital y se contactó con sus padres que llegaron rápidamente. 
+                    A la hora las autoridades recibieron otra llamada del niño. En esta Quico afirmaba haberse tragado un clavo que se había encontrado en el suelo de su garaje por la mañana. Esta vez sí que obtuvieron la dirección, por lo que rápidamente una ambulancia y un coche de policía acudieron a su casa. El niño estaba solo en casa así que se le llevaron al hospital y se contactó con sus padres, que llegaron rápidamente. 
                     </p>
                     <div class="flex justify-center items-center">
                     <Image 
@@ -77,26 +77,11 @@ export default function Home5() {
                      alt="" />
                 </div>
                     <p className="px-5 font-serif Link py-10">
-                        Debido al peligro que corría su vida Carmen alcanzo
-                        rápidamente una escopeta que estaba a nombre de su
-                        marido, pegándole así tres tiros en el pecho. Después de
-                        dispararle le sentó en el sofá para hablar
-                        tranquilamente con su marido mientras se encontraba en
-                        estado de agonía, él moriría treinta minutos más tarde
-                        de ocurrirse el suceso. Que su marido estuviese muerto
-                        no le importuno, ya que siguió hablando con él durante 5
-                        horas.{" "}
+                    Después de varias pruebas los médicos del hospital Clínico de Valladolid afirmaron que no se había tragado ningún clavo, por lo que el niño tuvo que confesar, y es que no se había tragado ningún clavo, solo padecía el llamado síndrome del príncipe destronado, debido al nacimiento de su hermana menor. {" "}
                         
                     </p>
                     <p className="px-5 font-serif">
-                        Según el abogado de la acusada esto se produjo debido al
-                        maltrato que había sufrido la victima durante el tiempo
-                        de su matrimonio, por lo que no se debería de tener en
-                        cuenta. Estas declaraciones han provocado un
-                        levantamiento de varios grupos en Valladolid, los cuales
-                        piden la puesta en libertad de la acusada. Las
-                        manifestaciones han acabado con cinco heridos, dos de
-                        ellos graves ingresados en el hospital Río Ortega.{" "}
+                    Los padres han pedido disculpas y se tendrán que enfrentar a una cuantiosa multa impuesta por la jurisdicción judicial de Valladolid, para paliar los gastos de todo el personal movilizado por la historia de Quico. {" "}
                     </p>
                    
                     

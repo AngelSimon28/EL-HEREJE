@@ -11,7 +11,7 @@ export const Carousel = () => {
     const slides = [
         {
             id: 1,
-            title: "MUJER MATA A SU MARIDO EN SAN VALENTÍN Y PASA LA NOCHE ENCERRADA CON EL ",
+            title: "ASESINATO DOMÉSTICO EN LAS VIUDAS",
             description:
                 "El pasado martes en Valladolid, las autoridades recibieron una llamada de los vecinos, los cuales denunciaban el asesinato de Mario por parte de su mujer Carmen.",
             image: lasviudas,
